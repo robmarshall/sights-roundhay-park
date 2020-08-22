@@ -40,8 +40,7 @@ export default function Header() {
         <p>
           One of the largest urban parks in the world!
           <br />
-          Bonfires, food events and performances. It is a must do of places to
-          visit.
+          It is a must do of places to visit.
         </p>
         <ul className="actions">
           <li>
