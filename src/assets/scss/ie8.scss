@@ -1,0 +1,153 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+/*
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+// Vars
+
+	$ie-palette-border:				#ccc;
+	$ie-palette-border-bg:			transparent;
+	$ie-palette-border2:			#ccc;
+	$ie-palette-border2-bg:			transparent;
+	$ie-palette-dark-bg:			#666666;
+	$ie-palette-dark-fg-bold:		#ffffff;
+	$ie-palette-dark-fg:			#ffffff;
+	$ie-palette-dark-fg-light:		#ffffff;
+	$ie-palette-dark-border:		#ffffff;
+	$ie-palette-dark-border-bg:		transparent;
+	$ie-palette-dark-border2:		#ffffff;
+	$ie-palette-dark-border2-bg:	transparent;
+
+/* Basic */
+
+	hr {
+		border-bottom: solid 1px $ie-palette-border;
+	}
+
+	blockquote {
+		border-left: solid 4px $ie-palette-border;
+	}
+
+	code {
+		border: solid 1px $ie-palette-border;
+	}
+
+/* Section/Article */
+
+	header {
+		&.major {
+			&:after {
+				background: $ie-palette-border;
+			}
+		}
+	}
+
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		-ms-behavior: url('assets/js/ie/PIE.htc');
+		border: solid 1px $ie-palette-border;
+		position: relative;
+	}
+
+/* List */
+
+	ul {
+		&.alt {
+			li {
+				border-top: solid 1px $ie-palette-border;
+			}
+		}
+
+		&.major-icons {
+			li {
+				.icon {
+					-ms-behavior: url('assets/js/ie/PIE.htc');
+					border: solid 1px $ie-palette-border;
+					position: relative;
+				}
+			}
+		}
+	}
+
+/* Table */
+
+	table {
+		thead {
+			border-bottom: solid 1px $ie-palette-border;
+		}
+
+		tfoot {
+			border-top: solid 1px $ie-palette-border;
+		}
+
+		&.alt {
+			tbody {
+				tr {
+					td {
+						border: solid 1px $ie-palette-border;
+						border-left-width: 0;
+						border-top-width: 0;
+					}
+				}
+			}
+		}
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		-ms-behavior: url('assets/js/ie/PIE.htc');
+		border: solid 1px $ie-palette-border;
+		position: relative;
+	}
+
+/* Image */
+
+	.image {
+		-ms-behavior: url('assets/js/ie/PIE.htc');
+
+		img {
+			-ms-behavior: url('assets/js/ie/PIE.htc');
+			position: relative;
+		}
+	}
+
+
+/* Main */
+
+	.main {
+		&.style2 {
+			@include dark(#333);
+			background-size: cover;
+			position: relative;
+
+			&:before {
+				content: '';
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			> * {
+				position: relative;
+				z-index: 1;
+			}
+		}
+	}
