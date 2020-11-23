@@ -25,7 +25,10 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 
-        <script async src="https://arc.io/widget.js?#WrxccT2crAmKvqcpei9Qkw" />
+        <script
+          async
+          src="https://arc.io/widget.min.js?#WrxccT2crAmKvqcpei9Qkw"
+        />
       </body>
     </html>
   )
