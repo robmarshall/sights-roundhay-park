@@ -26,6 +26,12 @@ class Homepage extends React.Component {
                 The park annually hosts bonfires, food events and has had
                 performances from the likes of Ed Sheehan & The Rolling Stones.
               </p>
+              <a
+                className="button special"
+                href="https://discoverleeds.co.uk/things-to-see-and-do/outdoors/roundhay-park/#introduction"
+              >
+                More information on Roundhay Park
+              </a>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -84,6 +90,12 @@ class Homepage extends React.Component {
                 for your canine to safely explore and roam. White Rose Canoeing
                 Club based on the main lake offer a £5 ‘come and try’ session.
               </p>
+              <a
+                className="button special"
+                href="https://discoverleeds.co.uk/things-to-see-and-do/outdoors/roundhay-park/#things-to-do"
+              >
+                More things to do at Roundhay Park
+              </a>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -118,6 +130,12 @@ class Homepage extends React.Component {
                 grub at the Roundhay Fox or head to the family owned
                 Mediterranean Restaurant Del Verde for a sophisticated meal.
               </p>
+              <a
+                className="button special"
+                href="https://discoverleeds.co.uk/things-to-see-and-do/outdoors/roundhay-park/#food-and-drink"
+              >
+                Food and drink near Roundhay Park
+              </a>
             </div>
           </div>
         </section>
@@ -138,6 +156,12 @@ class Homepage extends React.Component {
                 There are 5 car parks at Roundhay Park - all of them are free to
                 park. There are also 3 disabled parking bays on Mansion Lane.
               </p>
+              <a
+                className="button special"
+                href="https://discoverleeds.co.uk/things-to-see-and-do/outdoors/roundhay-park/#amenities"
+              >
+                Amenities at Roundhay Park
+              </a>
             </div>
             <div className="col-6">
               <span className="image fit">
@@ -180,6 +204,12 @@ class Homepage extends React.Component {
                 Park was put up for sale and bought by Leeds City Council for
                 £139,000.
               </p>
+              <a
+                className="button special"
+                href="https://discoverleeds.co.uk/things-to-see-and-do/outdoors/roundhay-park/#history"
+              >
+                History of Roundhay Park
+              </a>
             </div>
           </div>
         </section>
